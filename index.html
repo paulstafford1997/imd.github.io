@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Bootstrap Example</title>
+	<meta charset="utf-8">
+	<meta name="author" content="Paul Stafford">
+	<meta name="description" content="Paul Stafford CV">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="site.css">
+
+</head>
+
+<body>
+
+	<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+			<a class="navbar-brand" href="#">Paul Stafford</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="nav">
+				<ul class="nav nav-pills">
+					<li class="nav-item">
+						<a class="nav-link text-white" href="#aboutMe">About me</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-white" href="#education">Education</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-white" href="#projects">Projects</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-white" href="#workExp">Work Experience</a>
+					</li>
+					<!-- <li class="nav-item">
+							<a class="nav-link" href="#footer">Contact Me</a>
+						</li> -->
+				</ul>
+			</div>
+		</nav>
+
+		<div class="container-fluid">
+			</nav>
+			<div class="jumbotron bg-white rounded-0">
+				<div class="row">
+					<div class="home">
+						<div class="col-lg-12">
+							<img src="./images/paulImage.jfif" class="img-fluid rounded-circle border border-dark"
+								alt="Profile Picture" width="300" , height="300">
+							<h1>Paul Stafford</h1>
+							<h2>Software Developer</h2>
+							<div id="welcomeButtons">
+								<a href="Paul Stafford CV.docx" class="btn btn-primary" role="button"
+									download="CV.txt">Download My CV</a>&nbsp;&nbsp;&nbsp;
+								<button type="button" class="btn btn-primary" data-toggle="modal"
+									data-target="#myModal">Contact me</button>
+							</div>
+						</div>
+					</div>
+					<br /><br />
+				</div>
+			</div>
+
+
+			<section>
+
+				<div id="aboutMe" class="mt-3">
+					<div id="aboutStyle" style="text-align: center;">
+						<h1>About me</h1>
+
+						<div class="row">
+							<div class="col-sm-4">
+								<h1>test1</h1>
+							</div>
+							<div class="col-sm-4">
+								<h1>test2</h1>
+							</div>
+							<div class="col-sm-4">
+								<h1>test3</h1>
+							</div>
+						</div>
+					</div>
+
+					<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+					<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+				</div>
+
+
+				<div id="education">
+					<div id="educationTitleNav">
+						<h2>Education</h2>
+						<h5>Bachelor of Science (Honours) in Computing with Software Development</h5>
+						<h5>Institute of Technology Tallaght</h5>
+						<ul class="nav nav-tabs">
+							<li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#y4">Year 4</a>
+							</li>
+							<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#y3">Year 3</a></li>
+							<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#y2">Year 2</a></li>
+							<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#y1">Year 1</a></li>
+						</ul>
+					</div>
+
+					<!-- Tab panes -->
+					<div class="tab-content">
+						<div class="tab-pane container active" id="y4">
+							<table class="table">
+								<thead>
+									<tr>
+										<th scope="col">Stage GPA</th>
+										<th scope="col">TBD</th>
+										<th scope="col"></th>
+									</tr>
+									<tr>
+										<th scope="col">#</th>
+										<th scope="col">Modules Studied</th>
+										<th scope="col">Grade</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<th></th>
+										<td><b>Semester 1</b></td>
+										<td></td>
+									</tr>
+									<tr>
+										<th scope="row">1</th>
+										<td data-toggle="tooltip" data-placement="top" title="Hooray!">Security for Cloud and IOT</td>
+										<td>TBD Feburary 2020</td>
+									</tr>
+									<tr>
+										<th scope="row">2</th>
+										<td>Enterprise Applications Development 1</td>
+										<td>TBD Feburary 2020</td>
+									</tr>
+									<tr>
+										<th scope="row">3</th>
+										<td>Enterprise Performance Architecture</td>
+										<td>TBD Feburary 2020</td>
+									</tr>
+									<tr>
+										<th scope="row">4</th>
+										<td>Interactive Media Design & Visualisation</td>
+										<td>TBD Feburary 2020</td>
+									</tr>
+									<tr>
+										<th scope="row">5</th>
+										<td>Information Management</td>
+										<td>TBD Feburary 2020</td>
+									</tr>
+									<tr>
+										<th></th>
+										<td><b>Semester 2</b></td>
+										<td></td>
+									</tr>
+									<tr>
+										<th scope="row">1</th>
+										<td>Enterprise Applications Development 2</td>
+										<td>TBD June 2020</td>
+									</tr>
+									<tr>
+										<th scope="row">2</th>
+										<td>Computation Theory</td>
+										<td>TBD June 2020</td>
+									</tr>
+									<tr>
+										<th scope="row">3</th>
+										<td>Applied Artifical Intelligence and Deep Learning</td>
+										<td>TBD June 2020</td>
+									</tr>
+									<tr>
+										<th scope="row">4</th>
+										<td>Interactive Media Design & Visualisation</td>
+										<td>TBD June 2020</td>
+									</tr>
+									<tr>
+										<th scope="row">5</th>
+										<td>Project</td>
+										<td>TBD June 2020</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+
+						<div class="tab-pane container fade" id="y3">
+							<table class="table">
+								<thead>
+									<tr>
+										<th scope="col">Stage GPA</th>
+										<th scope="col">2.65</th>
+										<th scope="col"></th>
+									</tr>
+									<tr>
+										<th scope="col">#</th>
+										<th scope="col">Modules Studied</th>
+										<th scope="col">Grade</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<th></th>
+										<td><b>Semester 1</b></td>
+										<td></td>
+									</tr>
+									<tr>
+										<th scope="row">1</th>
+										<td>Web Application Development</td>
+										<td>D</td>
+									</tr>
+									<tr>
+										<th scope="row">2</th>
+										<td>Operating Systems</td>
+										<td>B+</td>
+									</tr>
+									<tr>
+										<th scope="row">3</th>
+										<td>Cloud Services and Distributed Computing</td>
+										<td>B-</td>
+									</tr>
+									<tr>
+										<th scope="row">4</th>
+										<td>Advanced Databases</td>
+										<td>C</td>
+									</tr>
+									<tr>
+										<th scope="row">5</th>
+										<td>Data Structures & Algorithms</td>
+										<td>B</td>
+									</tr>
+									<tr>
+										<th scope="row">6</th>
+										<td>Data Analysis</td>
+										<td>C</td>
+									</tr>
+									<tr>
+										<th></th>
+										<td><b>Semester 2</b></td>
+										<td></td>
+									</tr>
+									<tr>
+										<th scope="row">1</th>
+										<td>Work Experience</td>
+										<td>Pass</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+
+						<div class="tab-pane container fade" id="y2">
+							<table class="table">
+								<thead>
+									<tr>
+										<th scope="col">Stage GPA</th>
+										<th scope="col">3.06</th>
+										<th scope="col"></th>
+									</tr>
+									<tr>
+										<th scope="col">#</th>
+										<th scope="col">Modules Studied</th>
+										<th scope="col">Grade</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<th></th>
+										<td><b>Semester 1</b></td>
+										<td></td>
+									</tr>
+									<tr>
+										<th scope="row">1</th>
+										<td>Software Development 3</td>
+										<td>B</td>
+									</tr>
+									<tr>
+										<th scope="row">2</th>
+										<td>Software Quality Assurance & Testing</td>
+										<td>B-</td>
+									</tr>
+									<tr>
+										<th scope="row">3</th>
+										<td>Networking 1</td>
+										<td>A</td>
+									</tr>
+									<tr>
+										<th scope="row">4</th>
+										<td>Database Design & Programming</td>
+										<td>C</td>
+									</tr>
+									<tr>
+										<th scope="row">5</th>
+										<td>Discrete Mathematics 2</td>
+										<td>B+</td>
+									</tr>
+									<tr>
+										<th scope="row">6</th>
+										<td>Web & Mobile Design & Development</td>
+										<td>B</td>
+									</tr>
+									<tr>
+										<th></th>
+										<td><b>Semester 2</b></td>
+										<td></td>
+									</tr>
+									<tr>
+										<th scope="row">1</th>
+										<td>Software Development 4</td>
+										<td>B</td>
+									</tr>
+									<tr>
+										<th scope="row">2</th>
+										<td>Networking 2</td>
+										<td>A</td>
+									</tr>
+									<tr>
+										<th scope="row">3</th>
+										<td>Management Science</td>
+										<td>B+</td>
+									</tr>
+									<tr>
+										<th scope="row">4</th>
+										<td>Object Oriented Analysis & Design</td>
+										<td>C</td>
+									</tr>
+									<tr>
+										<th scope="row">5</th>
+										<td>Information Security</td>
+										<td>A</td>
+									</tr>
+									<tr>
+										<th scope="row">6</th>
+										<td>Project</td>
+										<td>C</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+
+						<div class="tab-pane container fade" id="y1">
+							<table class="table">
+								<thead>
+									<tr>
+										<th scope="col">Stage GPA</th>
+										<th scope="col">3.15</th>
+										<th scope="col"></th>
+									</tr>
+									<tr>
+										<th scope="col">#</th>
+										<th scope="col">Modules Studied</th>
+										<th scope="col">Grade</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<th></th>
+										<td><b>Semester 1</b></td>
+										<td></td>
+									</tr>
+									<tr>
+										<th scope="row">1</th>
+										<td>Software Development 1</td>
+										<td>A</td>
+									</tr>
+									<tr>
+										<th scope="row">2</th>
+										<td>Computer Architecture</td>
+										<td>B+</td>
+									</tr>
+									<tr>
+										<th scope="row">3</th>
+										<td>Visual Design & User Experience</td>
+										<td>B+</td>
+									</tr>
+									<tr>
+										<th scope="row">4</th>
+										<td>Business & Information Systems</td>
+										<td>C+</td>
+									</tr>
+									<tr>
+										<th scope="row">5</th>
+										<td>Discrete Mathematics 1</td>
+										<td>B</td>
+									</tr>
+									<tr>
+										<th scope="row">6</th>
+										<td>Learning to Learn at 3rd Level</td>
+										<td>B+</td>
+									</tr>
+									<tr>
+										<th></th>
+										<td><b>Semester 2</b></td>
+										<td></td>
+									</tr>
+									<tr>
+										<th scope="row">1</th>
+										<td>Software Development 2</td>
+										<td>B+</td>
+									</tr>
+									<tr>
+										<th scope="row">2</th>
+										<td>Object Oriented System Analysis</td>
+										<td>B-</td>
+									</tr>
+									<tr>
+										<th scope="row">3</th>
+										<td>Social Media Communications</td>
+										<td>C</td>
+									</tr>
+									<tr>
+										<th scope="row">4</th>
+										<td>Statistics</td>
+										<td>B</td>
+									</tr>
+									<tr>
+										<th scope="row">5</th>
+										<td>Database Fundamentals</td>
+										<td>B</td>
+									</tr>
+									<tr>
+										<th scope="row">6</th>
+										<td>Operating System Fundamentals</td>
+										<td>B+</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+
+				</div>
+
+				<div id="projects">
+					<h1>Projects</h1>
+					<p>Look through my college projects below</p>
+
+
+					<ul class="nav nav-pills">
+						<li class="active"><a href="#1a" data-toggle="tab">Fourth Year</a></li>
+						<li><a href="#2a" data-toggle="tab">Third Year</a></li>
+						<li><a href="#3a" data-toggle="tab">Second Year</a></li>
+						<li><a href="#4a" data-toggle="tab">First Year</a></li>
+					</ul>
+
+					<div class="tab-content clearfix">
+						<div class="tab-pane active" id="1a">
+							<table class="table">
+								<thead>
+									<tr>
+										<th>Subject</th>
+										<th>Grade</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>IMD</td>
+										<td>A</td>
+									</tr>
+									<tr>
+										<td>Database</td>
+										<td>B</td>
+									</tr>
+									<tr>
+										<td>Network</td>
+										<td>C</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+
+						<div class="tab-pane" id="2a">
+							<table class="table">
+								<thead>
+									<tr>
+										<th>Subject</th>
+										<th>Grade</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Web</td>
+										<td>A</td>
+									</tr>
+									<tr>
+										<td>Information</td>
+										<td>B</td>
+									</tr>
+									<tr>
+										<td>Business</td>
+										<td>C</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+
+					<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+					<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+				</div>
+
+				<div id="workExp">
+					<h1>Work Experience</h1>
+					<div id="accordion">
+
+						<div class="card">
+							<div class="card-header">
+								<a class="card-link" data-toggle="collapse" href="#collapseOne" style="color: black">
+									Software Developer at Dell Technologies - February 2019 – August 2019
+								</a>
+							</div>
+							<div id="collapseOne" class="collapse show" data-parent="#accordion">
+								<div class="card-body">
+									<div class="row">
+										<a href="https://www.dellemc.com/en-ie/index.htm" target="_blank"
+											title="DELL"><img src="./images/Dell.png" class="img-responsive" width="250"
+												height="150"></a>
+									</div>
+									<div class="row">
+										<h6>Main Responsibilities: </h6>
+										<ul>
+											<li>Workd in the Interactive Voice Response team on Innovation Squad.</li>
+											<li>Think of, investigate and implement new techniques for the
+												Telecommunications space.</li>
+											<li>Work in agile software development environment.</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+
+							<div class="card">
+								<div class="card-header">
+									<a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo"
+										style="color: black">
+										Junior Business Analyst at Irish Progressive Services International - July 2018
+										– September 2018.
+									</a>
+								</div>
+								<div id="collapseTwo" class="collapse" data-parent="#accordion">
+									<div class="card-body">
+										<div class="row">
+											<a href="http://www.ipsi.ie/" target="_blank" title="IPSI"><img
+													src="./images/IPSI.jpg" class="img-responsive" width="500"
+													height="150"></a>
+										</div>
+										<div class="row">
+											<h6>Main Responsibilities: </h6>
+											<ul>
+												<li>Worked in the Fund Accounting Business Analysis (FABA) team on
+													Software testing.</li>
+												<li>Carried out black box testing for an inhouse piece of software
+													called FundVision.</li>
+												<li>Collaborated with various departments to properly bug test this
+													software.</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="card">
+								<div class="card-header">
+									<a class="Collapsed card-link" data-toggle="collapse" href="#collapseThree"
+										style="color: black">
+										Sales Agent at Zipi Tools - 2014 - 2016
+									</a>
+								</div>
+								<div id="collapseThree" class="collapse" data-parent="#accordion">
+									<div class="card-body">
+										<h6>Main Responsibilities: </h6>
+										<ul>
+											<p></p>
+											<p></p>
+										</ul>
+									</div>
+								</div>
+							</div>
+
+						</div>
+						<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+					</div>
+
+
+					<!-- Modal -->
+					<!-- The Modal -->
+					<div class="modal" id="myModal">
+						<div class="modal-dialog">
+							<div class="modal-content">
+
+								<!-- Modal Header -->
+								<div class="modal-header">
+									<h4 class="modal-title">Contact me</h4>
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+								</div>
+
+								<!-- Modal body -->
+								<div class="modal-body">
+									<p>Phone: +353 873531240</p>
+									<p>Email: paulstafford1997@hotmail.com</p>
+									<a href="https://www.linkedin.com/in/paulstafford97/" target="_blank"
+										title="LinkedIN"><img src="./images/LinkedIn.png" class="img-responsive"></a>
+								</div>
+
+								<!-- Modal footer -->
+								<div class="modal-footer">
+									<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+								</div>
+
+							</div>
+						</div>
+					</div>
+
+
+					<section>
+
+				</div>
+
+				<script>
+					$(document).ready(function () {
+						$("#myInput").on("keyup", function () {
+							var value = $(this).val().toLowerCase();
+							$("#aboutme *").filter(function () {
+								$(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+							});
+						});
+					});
+				</script>
+
+	</body>
+
+</html>
