@@ -7,7 +7,7 @@
 #workExp {
   margin-right: 1em;
   margin-left: 1em;
-  padding-top: 2em;
+  padding-top: 4em;
   border-top: 0.3em solid black;
   height: 55em;
 }
@@ -71,30 +71,27 @@ a {
   width: 115em;
 }
 
-#contactMe {
-  color: white;
-  padding-top: 2em;
-  text-align: center;
-  padding-bottom: 2em;
-  width: 100%;
-}
-
 #welcomeButtons {
   padding-top: 1em;
 }
 
+
 .footer {
-  position: sticky;
-   left: 0;
-   bottom: 0;
-   height: 3em;
+   position: sticky;
+   height: 1em;
    width: 100%;
    background-color: #343a40;
    color: white;
    text-align: center;
+   margin: 0;
 }
 
 #footerContent {
   padding-top: 0.7em;
-  clear: both;
 }
+
+.card-deck {
+  padding-left: 10em;
+  padding-right: 10em;
+}
+

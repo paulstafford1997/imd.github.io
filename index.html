@@ -15,6 +15,12 @@
 
 </head>
 
+<style>
+	body::-webkit-scrollbar {
+		display: none;
+	}
+</style>
+
 <body>
 
 	<body data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -28,7 +34,7 @@
 			<div class="collapse navbar-collapse" id="nav">
 				<ul class="nav nav-pills">
 					<li class="nav-item">
-						<a class="nav-link text-white" href="#aboutMe">About me</a>
+						<a class="nav-link text-white" href="#aboutMe">About Me</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link text-white" href="#education">Education</a>
@@ -44,7 +50,7 @@
 		</nav>
 
 		<div class="container-fluid">
-			
+
 			</nav>
 			<div class="jumbotron bg-white rounded-0">
 				<div class="row">
@@ -68,26 +74,41 @@
 
 
 			<section>
-
-				<div id="aboutMe" class="mt-3">
-					<div id="aboutStyle" style="text-align: center;">
+				<div id="aboutMe" class="mt-3" style="text-align: center;">
+					<div id="aboutStyle">
 						<h1>About me</h1>
-
+						<hr>
 						<div class="row">
-							<div class="col-sm-4">
-								<h1>test1</h1>
+							<div class="col-sm-6">
+								<div class="card">
+									<div class="card-body">
+										<h5 class="card-title">Background</h5>
+										<p class="card-text">I am currently a Final Year student
+											at the Technological University of Dublin. I am studing Computing with a
+											focus
+											on Software Development. I gained valuable work, teamwork and customer
+											experience in part-time jobs and internship positions, most recently I
+											worked as
+											a software developer for the IVR team in DELL on their Dublin campus.</p>
+									</div>
+								</div>
 							</div>
-							<div class="col-sm-4">
-								<h1>test2</h1>
-							</div>
-							<div class="col-sm-4">
-								<h1>test3</h1>
+							<div class="col-sm-6">
+								<div class="card">
+									<div class="card-body">
+										<h5 class="card-title">Interests</h5>
+										<p class="card-text">I have various interests both inside of college and out. I
+											enjoy playing video games such as CSGO and other competitive games. I also
+											enjoy playing airsoft, I joined the airsoft society that was set up in the
+											Technological University of Dublin and I assist in the running of certain events.</p>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
 
 					<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-					<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+					<br /><br /><br /><br /><br /><br /><br /><br /><br />
 				</div>
 
 
@@ -118,8 +139,8 @@
 										<th scope="col"></th>
 									</tr>
 									<tr>
-										<th scope="col">#</th>
-										<th scope="col">Modules Studied</th>
+										<th scope="col">No.</th>
+										<th scope="col">Modules taken</th>
 										<th scope="col">Grade</th>
 									</tr>
 								</thead>
@@ -198,7 +219,7 @@
 										<th scope="col"></th>
 									</tr>
 									<tr>
-										<th scope="col">#</th>
+										<th scope="col">No.</th>
 										<th scope="col">Modules Studied</th>
 										<th scope="col">Grade</th>
 									</tr>
@@ -263,8 +284,8 @@
 										<th scope="col"></th>
 									</tr>
 									<tr>
-										<th scope="col">#</th>
-										<th scope="col">Modules Studied</th>
+										<th scope="col">No.</th>
+										<th scope="col">Modules taken</th>
 										<th scope="col">Grade</th>
 									</tr>
 								</thead>
@@ -352,8 +373,8 @@
 										<th scope="col"></th>
 									</tr>
 									<tr>
-										<th scope="col">#</th>
-										<th scope="col">Modules Studied</th>
+										<th scope="col">No.</th>
+										<th scope="col">Modules taken</th>
 										<th scope="col">Grade</th>
 									</tr>
 								</thead>
@@ -525,8 +546,8 @@
 						</ul>
 						<h6>Built with Node.js, HTML, CSS, Bootstrap, Jquery and MSSQL.</h6>
 						<h6>Hosted by Azure Web Services at <a href="https://fourth-year.azurewebsites.net/"
-								label="FourthYearProject" </a>fourth-year.azurewebsites.net </h6> </div>
-								<br /><br /><br /><br />
+								label="FourthYearProject" target="_blank">fourth-year.azurewebsites.net</a></h6> </div>
+								<br /><br /><br /><br /><br>
 					</div>
 
 					<div id="workExp">
@@ -552,7 +573,8 @@
 											<ul>
 												<li>Worked in the Interactive Voice Response team on the Innovation
 													Squad.</li>
-												<li>Think of, investigate and implement new techniques using innovative
+												<li>Think of, investigate and implement new techniques using
+													innovative
 													technologies for the
 													Telecommunications space.</li>
 												<li>Work in an agile software development environment.</li>
@@ -602,24 +624,36 @@
 
 						<ul class="breadcrumb">
 							<li class="breadcrumb-item"><a href="#">Home</a></li>
-							<li class="breadcrumb-item"><a href="#aboutme">About Me</a></li>
+							<li class="breadcrumb-item"><a href="#aboutMe">About Me</a></li>
 							<li class="breadcrumb-item"><a href="#education">Education</a></li>
 							<li class="breadcrumb-item"><a href="#projects">Projects</a></li>
 							<li class="breadcrumb-item"><a href="#workexp">Work Experience</a></li>
 						</ul>
 
-						<div class="footer">
-							<div id="footerContent">
-								<p>Email: paulstafford1997@hotmail.com</p>
-								<p>Phone No: +353 873531240</p>
-								<a href="https://www.linkedin.com/in/paulstafford97/" target="_blank">
-									<img src="./images/LinkedIn.png"/>&emsp;LinkedIn
-								</a>
-								<a href="https://github.com/paulstafford1997" target="_blank" class="list-group-item list-group-item-action">
-									<img src="./images/github.png"/>&emsp;LinkedIn
-								</a>
+						<footer class="bg-dark">
+							<div class="container" id="footer">
+								<div class="row" id="footerContent">
+									<div class="col-md-4">
+										<p style="color: white">Email: paulstafford1997@hotmail.com</p>
+									</div>
+									<div class="col-md-4">
+										<p style="color: white">Phone No: +353 873531240</p>
+									</div>
+									<div class="col-md-2">
+										<a class="text-white" href="https://www.linkedin.com/in/paulstafford97/"
+											target="_blank">
+											<img src="./images/LinkedIn.png" />&emsp;LinkedIn
+										</a>
+									</div>
+									<div class="col-md-2">
+										<a class="text-white" href="https://github.com/paulstafford1997"
+											target="_blank">
+											<img src="./images/github.png" />&emsp;GitHub
+										</a>
+									</div>
+								</div>
 							</div>
-						</div>
+						</footer>
 
 
 						<!-- Modal -->
